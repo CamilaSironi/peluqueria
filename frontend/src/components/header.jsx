@@ -5,9 +5,9 @@ function Header() {
         <section className="header">
             <img id="logo" src={logo} alt="logo"/>
             <div className="navbar">
-                <p className='nav-item'>SOBRE MI</p>
-                <p className='nav-item'>SERVICIOS</p>
-                <p className='nav-item'>CONTACTO</p>
+                <a className='nav-item' href= "#about">SOBRE MI</a>
+                <a className='nav-item' href= "#services">SERVICIOS</a>
+                <a className='nav-item' href= "#contact">CONTACTO</a>
             </div>
         </section>
     )

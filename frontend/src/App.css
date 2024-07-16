@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Lato Narrow', 'Helvetica Narrow', 'Arial Narrow', sans-serif;
+  font-family: Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header {
@@ -22,10 +22,50 @@ body {
 
 .nav-item {
   padding: 2rem;
+  text-decoration: none;
+  color: black;
 }
 
-.about {
-  padding: 2rem;
+.nav-item:visited {
+  color: black;
 }
+
+#about {
+  padding: 5rem;
+  display: flex;
+  background-color: black;
+  color: #ffffff;
+}
+
+#about .text {
+  padding-left: 3rem;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+#services {
+  padding: 5rem;
+}
+
+#services .treatment{
+  display: flex;
+  padding: 5rem;
+}
+
+#services .treatment img{
+  width: 50%;
+  height: auto;
+}
+
 
 
