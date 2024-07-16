@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Lato Narrow', 'Helvetica Narrow', 'Arial Narrow', sans-serif;
+}
+
+.header {
+  box-shadow: inset 0 0 2px 0 #c4c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 16rem;
+  height: 100%;
+  padding-left: 1.5rem;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-item {
+  padding: 2rem;
+}
+
+.about {
+  padding: 2rem;
+}
+
+
