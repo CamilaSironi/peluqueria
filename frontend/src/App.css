@@ -18,16 +18,21 @@ body {
 
 .navbar {
   display: flex;
+  padding-right: 1rem;
+}
+
+.ant-menu {
+  border-bottom: none !important;
 }
 
 .nav-item {
-  padding: 2rem;
+  padding: 1.5rem;
   text-decoration: none;
   color: black;
 }
 
-.nav-item:visited {
-  color: black;
+.ant-menu-item {
+  font-size:medium;
 }
 
 #about {
@@ -57,9 +62,23 @@ ul li {
   padding: 5rem;
 }
 
-#services .treatment{
+.treatment{
   display: flex;
   padding: 5rem;
+}
+
+.lavado h3, .lavado p, .corte h3, .corte p, .peinados h3, .peinados p {
+  padding-right: 3rem;
+  padding-left: 7rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.secado h3, .secado p, .color h3, .color p, .tratam h3, .tratam p {
+  padding-left: 3rem;
+  padding-right: 7rem;
+  line-height: 1.5;
+  text-align: left;
 }
 
 #services .treatment img{
