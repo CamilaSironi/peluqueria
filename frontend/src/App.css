@@ -11,7 +11,7 @@ body {
 }
 
 #logo {
-  width: 16rem;
+  max-width: 16rem;
   height: 100%;
   padding-left: 1.5rem;
 }
@@ -84,6 +84,11 @@ ul li {
 #services .treatment img{
   width: 50%;
   height: auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
 }
 
 
